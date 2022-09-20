@@ -10,7 +10,7 @@ def main(data:str):
     for i in f :
         if i.isdigit():
             k.append(i)
-    return 
+    return k
 f = open('txt_file/data03.txt').read()
 
     

@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    f = open ('data01.txt', 'w')
+    f = open ('data01.txt', 'r')
     data = f.read()
     return str(data)
 

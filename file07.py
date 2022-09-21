@@ -6,11 +6,11 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    k = 0    
+    a = 0    
     for i in f:
         if i in '0123456789':
-            k+=int(i)
-        return k
+            a+=int(i)
+        return a
  # Read data from file
 f = open('txt_file/data07.txt')
 f = f.read()

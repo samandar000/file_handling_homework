@@ -10,7 +10,7 @@ def main(data:str):
     
     for i in f:
         if i in ('0123456789'):
-            k+=1
+            k+=int(i)
         return k
 f = open('txt_file/data07.txt').read()
 print(main(f))

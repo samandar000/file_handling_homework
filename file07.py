@@ -12,7 +12,8 @@ def main(data:str):
         if i in '0123456789':
             k+=int(i)
         return k
-f = open('txt_file/data07.txt').read()
+f = open('txt_file/data07.txt')
+f = f.read()
 print(main(f))
 
 

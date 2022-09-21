@@ -70,7 +70,7 @@ Output: ['p', 'y', 't', 'h', 'o', 'n', '\n', 'c', 'o', 'd', 'e', 'r']
 
 **Constraints:**
 
-  - 1 <= length(list1) <= 10^5
+  - 1 <= length(list1) <= 10^5 
 
 ## file05
 

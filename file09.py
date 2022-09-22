@@ -4,7 +4,13 @@ def main(data:str):
     Args:
         data: str
     Returns:
-        int: return answer
+        int: re0sturn answer
     """
-
+    k = []
+    for i in f:
+        if i.isdigit():
+            k.append(int(i))
+    return min(k)
+f = open('txt_file/data09.txt').read().split()
+print(main(f))
 # Read data from file

@@ -7,10 +7,13 @@ def main(data:str):
         int: re0sturn answer
     """
     k = []
+    l = 0 
     for i in f:
-        if i.isdigit():
+        if i in '0123456789':
             k.append(int(i))
-    return min(k)
+    
+    return l
+
 f = open('txt_file/data09.txt').read().split()
 print(main(f))
 # Read data from file
